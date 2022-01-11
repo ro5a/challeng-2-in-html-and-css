@@ -104,6 +104,28 @@ column-gap: 40px;
   padding: 50px;
   text-align: center;
 }
+.service p {
+  animation-duration: 10s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  75% {
+    font-size: 30%;
+    margin-left: 25%;
+    width: 150%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
 form{
   border:2px solid lightgrey;
   padding: 50px;
